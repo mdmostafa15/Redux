@@ -6,6 +6,7 @@ import { decrements, increments } from '../utility/actions';
 const Counter = (props) => {
     return (
         <div>
+            <h3>Counter | using react pattern</h3>
             Counter :- {props.value}  <br/>
             <button onClick={props.increm}> + </button> <button onClick={props.decrem}> - </button>
         </div>
